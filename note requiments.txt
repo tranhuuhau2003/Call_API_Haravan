@@ -14,3 +14,12 @@ bảng tồn kho: kho id, varians id, số tồn, số bán
 
 
 quản lý lô, hạn sử dụng ????
+
+Giá trị tồn (Onhand Quantity): số lượng hàng thực tế đang có trong kho. 
+Giá trị đặt hàng (Commited Quantity) bao gồm:
+Số lượng sản phẩm đang được khách hàng đặt giữ trong các đơn hàng đã đặt nhưng chưa hoàn tất.
+Số lượng sản phẩm được ghi nhận cho kho xuất sau khi tạo phiếu điều chuyển nhưng chưa Xác nhận xuất.
+Giá trị không khả dụng (Incoming Quantity), bao gồm:
+ Số lượng sản phẩm đã đặt từ nhà cung cấp (phiếu đặt hàng chưa xác  nhận nhập hàng).
+ Số lượng sản phẩm đang trong quá trình điều chuyển từ kho A sang kho B (phiếu điều chuyển đã xuất nhưng chưa nhận)
+Giá trị khả dụng (Available Quantity): giá trị còn lại sau khi lấy giá trị tồn trừ cho giá trị đặt.
