@@ -1,0 +1,16 @@
+vendor (nhà cung cấp) table: id, tên, địa chỉ, sdt,...
+product type(loại) id, tên, 
+image (ảnh) id, url, mô tả 
+tags
+bảng đệm: để khóa ngoại tới nhiều sản phẩm 
+tất cả các bang phải có ngày tạo, ngày update, người tạo, người update 
+
+varians: biến thể, trong varians cũng có image nữa  vd áo size s, màu nâu là một varians; áo size L, màu nâu là một varians 
+option table 
+một sản phẩm chứa nhiều biến thể, một biến thể có tồn ở nhiều kho 
+tạo một bảng chi nhánh kho: id tên địa chỉ sdt 
+bảng tồn kho: kho id, varians id, số tồn, số bán 
+
+
+
+quản lý lô, hạn sử dụng ????
